@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.custom-navbar {
+    background-color: #1A187A; 
+  }
+.custom-bg-color {
+    background-color: #1A187A;
+  }
+
+  .custom-navbar .navbar-nav .nav-link {
+    color: #808080; 
+  }
+
+  .custom-navbar .navbar-nav .nav-link.active {
+    color: rgb(240, 243, 244);
+  
+    font-weight:bold;
+  }
+
+#offcanvasNavbar.offcanvas {
+    background-color: #1A187A; 
+}
+
+.main {
+    background-image: linear-gradient(to bottom right,#FBD2F9,#718AF9);
+    /* padding-top: 10px; */
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+
+.panda-btn-buy-now{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: white;
+    border-radius: 20px;
+    padding: 9px 25px;
+    border: none;
+}
+
+
+
+
+.item2{
+    background-color: #ADC2D7;
+}
+.item3{
+    background-color: #EDEDED;
+}
+
+.box{
+    width: 160px;
+    height: 126px;
+    margin: 10px;
+    margin-left: 0;
+    border: 1px solid ;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box p {
+            margin: 0;
+            font-size: 20px; /* Adjust the font size as needed */
+            font-weight:500;
+}
+.box i {
+            font-size: 45px; /* Adjust the icon size as needed */
+}
+
+.browse{
+    font-size: x-large;
+    font-weight: bold;
+    padding-inline: 5px;
+}
+
+.half-hidden-left {
+         
+}
+
+.half-hidden-right {
+            transform: scaleX(-1);
+}
+
+.banner-div {
+            background-color:#958AD4;
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+}
+
+
+footer{
+    background-color: #0E071B;
+    color: white;
+}
